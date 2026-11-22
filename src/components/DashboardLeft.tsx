@@ -18,13 +18,13 @@ function DashboardLeft() {
           </p>
         </div>
         <div className="flex  items-center w-full p-4  gap-2 shadow-primary-shadow rounded-lg ">
-          <Search className="shrink-0 text-primary-glow" />
+          <Search className="shrink-0 text-primary" />
           <input
             type="text"
             placeholder="Search Tasks"
             className="py-2 px-3 grow shrink-2 rounded-lg w-[clamp(50px,30%,300px)] outline-0 border-0"
           />
-          <button className="bg-primary-glow py-2 text-text-main px-3 rounded-md cursor-pointer ">
+          <button className="bg-primary py-2 text-text-main px-3 rounded-md cursor-pointer ">
             Search
           </button>
         </div>
@@ -32,7 +32,7 @@ function DashboardLeft() {
         {showAddModal && <AddModal />}
         <div>
           <Plus
-            className="fixed bottom-25 bg-primary-glow rounded-full p-1 right-[15vw] lg:right-[35vw]"
+            className="fixed bottom-25 bg-primary rounded-full p-1 right-[15vw] lg:right-[35vw]"
             size={45}
             onClick={() => {
               handleAddTodo({ showModal: { showAddModal, setShowAddModal } });
