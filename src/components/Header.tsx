@@ -1,6 +1,4 @@
 import { Search, Menu } from "lucide-react";
-// import { createPortal } from "react-dom";
-// import SideMenu from "./SideMenu";
 
 function Header() {
   return (
@@ -17,7 +15,7 @@ function Header() {
         </div>
       </div>
       <div className="px-5  tablet:flex ">
-        <div className="bg-fg-mid   border-primary border rounded-lg py-2 px-4 text-text-muted gap-5  w-[clamp(100px,40vw,45vw)] flex">
+        <div className="bg-fg-mid shadow-light-shadow rounded-lg py-2 px-4 text-text-muted gap-5  w-[clamp(100px,40vw,45vw)] flex">
           <Search className="hidden text-primary md:block" />
           <input
             type="text"

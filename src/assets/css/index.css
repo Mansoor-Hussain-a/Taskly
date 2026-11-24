@@ -32,5 +32,6 @@
   /* BreakPoints */
   --breakpoint-tablet: 850px;
   /* BoxSahdow */
-  --shadow-primary-shadow: 0 0px 4px rgba(99, 102, 241);
+  --shadow-primary-shadow: 0 0px 4px var(--color-primary);
+  --shadow-light-shadow: 0 0px 4px var(--color-primary-light);
 }
