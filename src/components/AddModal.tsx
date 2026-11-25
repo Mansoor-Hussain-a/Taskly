@@ -8,6 +8,10 @@ export default function AddModal({ setShowAddModal }: Props) {
   return createPortal(
     <motion.div
       className="fixed z-10 w-screen h-screen flex justify-center items-center top-0 bg-black/30 backdrop-blur-sm "
+      initial={{ opacity: 1 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3 }}
       onClick={(e) => {
         if (e.target === e.currentTarget) {
           setShowAddModal((prev) => !prev);
