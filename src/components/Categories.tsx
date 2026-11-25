@@ -13,7 +13,7 @@ function Categories(): ReactElement {
         return (
           <span
             key={index}
-            className={`bg-primary rounded-lg py-2 px-3 ${item === currentCategory && "bg-primary-glow"} cursor-pointer select-none`}
+            className={` rounded-lg py-1 px-2 ${item === currentCategory ? "bg-primary-glow" : "bg-primary"} cursor-pointer select-none`}
             onClick={() => {
               handleCategories(item);
             }}

@@ -11,7 +11,7 @@ type Arguments = {
 }
 function handleAddTodo( {showModal} : Arguments){
   showModal.setShowAddModal(prev => !prev)
-  console.log(showModal.showAddModal)
+  
   
 }
 export default handleAddTodo

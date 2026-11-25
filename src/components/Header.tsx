@@ -2,7 +2,7 @@ import { Search, Menu } from "lucide-react";
 
 function Header() {
   return (
-    <header className="flex bg-bg-mid h-16  justify-between items-center border-primary border-b ">
+    <header className="flex bg-bg-app h-16  justify-between items-center border-primary border-b ">
       <div className="flex gap-3 items-center px-5 md:gap-10 ">
         <Menu className=" text-white block  md:hidden" />
         <h1 className="text-white text-xl md:text-2xl">Taskly</h1>
