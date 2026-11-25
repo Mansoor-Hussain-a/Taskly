@@ -1,4 +1,4 @@
-import { Plus, Search } from "lucide-react";
+import { Plus } from "lucide-react";
 import handleAddTodo from "../functions/handleAddTodo";
 import Categories from "./Categories";
 import { useState } from "react";
