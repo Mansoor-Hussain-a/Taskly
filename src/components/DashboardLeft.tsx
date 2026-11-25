@@ -15,7 +15,9 @@ function DashboardLeft() {
         <Greeting />
         <SearchList />
         <Categories />
-        <AnimatePresence>{showAddModal && <AddModal />}</AnimatePresence>
+        <AnimatePresence>
+          {showAddModal && <AddModal setShowAddModal={setShowAddModal} />}
+        </AnimatePresence>
         <div className="cursor-pointer">
           <Plus
             className="fixed bottom-25 bg-primary rounded-full p-1 right-[15vw] lg:right-[35vw]"
